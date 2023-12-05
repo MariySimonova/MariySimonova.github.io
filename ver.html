@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.20">
-<title>Получение списка созданных задач (GET)</title>
+<title>Версии</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -435,107 +435,47 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<h1>Получение списка созданных задач (GET)</h1>
 </div>
 <div id="content">
-<div id="preamble">
-<div class="sectionbody">
-<div class="paragraph">
-<p>Метод получения списка созданных задач.</p>
-</div>
-</div>
-</div>
 <div class="sect1">
-<h2 id="_входные_параметры">Входные параметры</h2>
+<h2 id="_версии">Версии</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Входные параметры отсутствуют.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_выходные_параметры">Выходные параметры</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Выходные параметры:</p>
+<p>===[0.2.0]</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>в случае успеха вернуть список задач с параметрами, указанными в таблице;</p>
-</li>
-<li>
-<p>иначе вернуть описание ошибки.</p>
+<p>Добавлено описание метода получения списка задач.</p>
 </li>
 </ul>
 </div>
-<table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 1. Параметры задач</caption>
-<colgroup>
-<col style="width: 20%;">
-<col style="width: 20%;">
-<col style="width: 20%;">
-<col style="width: 20%;">
-<col style="width: 20%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top"><strong>Параметр</strong></th>
-<th class="tableblock halign-left valign-top"><strong>Ключ</strong></th>
-<th class="tableblock halign-left valign-top"><strong>Тип</strong></th>
-<th class="tableblock halign-left valign-top"><strong>Не пустой</strong></th>
-<th class="tableblock halign-left valign-top"><strong>Описание</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Идентификтор задачи</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">task_id</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Число</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">true</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Идентификатор задачи</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Заголовок задачи</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">title</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Однострочный текст</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">true</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Краткое описание задачи</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Описание</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">description</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Многострочный текст</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">false</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Полное описание задачи, что необходимо сделать</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Статус</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">status</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Однострочный текст</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">true</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Статус исполнения задачи.</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_алгоритм">Алгоритм</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>Алгоритм работы метода приведён на диаграмме.</p>
+<p>===[0.1.0]</p>
 </div>
-<div class="imageblock"><div class="content"><img class="plantuml" src="https://www.plantuml.com/plantuml/png/~1U9mTZJiEG50KHFkx2klm6bkHqFd5f-SfD2eRi0K58GHRcDcHwtKdapCpGLM7PTsaYOWZ4Hyp7bpiEU2WvUYnmwlOQNnwsB5WnSB1_Ew4ZIrkjPtPOiFENkiZhKhM_Bjv8HB4MQGt7y2WFau0" /></div></div>
-<div class="paragraph">
-<p><a href="../index.html">Назад</a></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Добавлено описание метода создания задачи.</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_0_0_0">[0.0.0]</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Описана структура данных</p>
+</li>
+</ul>
+</div>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-12-05 09:55:29 UTC
+Last updated 2023-12-05 11:20:32 UTC
 </div>
 </div>
 </body>
